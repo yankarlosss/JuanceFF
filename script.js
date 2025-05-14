@@ -11,12 +11,13 @@ for (let i = 0; i < 25; i++) {
 function mostrarBoton() {
   document.getElementById('abrirBtn').style.display = 'inline-block';
 
-  // Detectar si está dentro de apps como TikTok, Facebook, Instagram
+  // Detectar navegadores embebidos (TikTok, FB, IG)
   const agente = navigator.userAgent.toLowerCase();
   if (agente.includes("tiktok") || agente.includes("fb") || agente.includes("instagram")) {
     document.getElementById('alerta').style.display = 'block';
   }
 }
+
 
 // Ir al sitio real
 function abrirNavegador() {
