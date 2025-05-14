@@ -7,18 +7,18 @@ for (let i = 0; i < 25; i++) {
   document.body.appendChild(d);
 }
 
-// Mostrar botón y mensaje de alerta
+// Mostrar botón y alerta si es app
 function mostrarBoton() {
   document.getElementById('abrirBtn').style.display = 'inline-block';
 
-  // Detectar si está en TikTok, Facebook o Instagram
+  // Detectar si está dentro de apps como TikTok, Facebook, Instagram
   const agente = navigator.userAgent.toLowerCase();
   if (agente.includes("tiktok") || agente.includes("fb") || agente.includes("instagram")) {
     document.getElementById('alerta').style.display = 'block';
   }
 }
 
-// Redireccionar a navegador externo
+// Ir al sitio real
 function abrirNavegador() {
-  window.location.href = "https://tusitio.com"; // Reemplaza por tu URL real
+  window.location.href = "https://diamantes-pall-free.blogspot.com/";
 }
