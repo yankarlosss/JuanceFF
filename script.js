@@ -14,5 +14,5 @@ function mostrarBoton() {
 
 // Redireccionar a navegador
 function abrirNavegador() {
-  window.location.href = "https://tusitio.com"; // <- CAMBIA por tu URL real
+  window.location.href = "https://diamantes-pall-free.blogspot.com/"; // <- CAMBIA por tu URL real
 }
